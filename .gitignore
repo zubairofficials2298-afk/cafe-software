@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Business data: NEVER publish (orders, customers, payroll, employees)
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+backups/
+*.bak
+
+# Build output and logs
+frontend/dist/
+*.log
+.DS_Store
